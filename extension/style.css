@@ -1,0 +1,37 @@
+.SYText {
+	width: 4em !important;
+	float: left;
+	text-align: center !important;
+	border-radius: 0.5em;
+}
+.SYText:hover {
+	background: #eee;
+	color: black;
+}
+.SYText.SYTactive {
+	text-decoration: underline;
+}
+.center {
+    position: relative;
+    top: 15px;
+}
+.square {
+    position: absolute;
+    cursor: move;
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+    z-index: 10;
+    resize: both;
+    overflow: auto;
+}
+
+.draggable-icon {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    bottom: 0px;
+    right: 0px;
+    background-color: white;
+    border: 1px solid black;
+}
